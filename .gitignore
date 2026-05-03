@@ -1,0 +1,9 @@
+token.json
+credentials.json
+.env
+__pycache__/
+build/
+dist/
+*.spec
+.idea/
+.junie/
