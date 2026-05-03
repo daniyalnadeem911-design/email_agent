@@ -1,7 +1,9 @@
 from groq import Groq
 
-client = Groq(api_key="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")
-
+import os
+from dotenv import load_dotenv
+load_dotenv()
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 YOUR_NAME = "Daniyal"
 
 RELATIVES = [
